@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
+		System.out.println("Welcome to nut simulator!");
 		String username;
 		int userAge = 69420;
 		double shoeSize = 0;
@@ -37,6 +38,7 @@ public class Main {
 		
 		
 		System.out.println("\nlookie here an npc! ");
+		
 		CoolPerson chilldude = new CoolPerson("chill guy", 21, 9);
 		chilldude.speak();
 		
